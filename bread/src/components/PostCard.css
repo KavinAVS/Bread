@@ -1,0 +1,19 @@
+#container{
+    overflow: hidden;
+    display: table-cell;
+}
+
+@media only screen and (max-width: 350px){
+    .username{
+        font-size:13px;
+    }
+
+    .ppic{
+        width:25px !important;
+    }
+
+    #container{
+        max-height: 300px;
+    }
+}
+

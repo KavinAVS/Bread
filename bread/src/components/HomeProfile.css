@@ -1,0 +1,35 @@
+.hp-container {
+    position: fixed;
+}
+
+.hp-stats {
+    color: black;
+}
+
+.hp-username {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hp-verified {
+    color: rgb(9, 156, 16);
+    float: right;
+}
+
+@media only screen and (max-width: 1024px) {
+    .hp-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hp-functions {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .hp-stats{
+        font-size:12px;
+    }
+}

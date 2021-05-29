@@ -1,0 +1,28 @@
+#contain{
+    background-color: darkgray;
+    justify-content:center;
+}
+
+.ppic{
+    max-width: 90px;
+}
+
+#btn{
+    color:black;
+    background-color: white;
+    border-color: rgb(206, 206, 206);
+}
+#btn:hover{
+    background-color: rgb(226, 226, 226);
+    border-color: rgb(206, 206, 206);
+}
+
+@media only screen and (max-width: 550px){
+    .stats{
+        font-size:12px;
+    }
+
+    .ppic{
+        width: 50px !important;
+    }
+}
